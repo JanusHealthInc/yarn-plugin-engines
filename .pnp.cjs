@@ -2286,10 +2286,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lodash-es", [\
-        ["npm:4.17.21", {\
-          "packageLocation": "./.yarn/cache/lodash-es-npm-4.17.21-b45832dfce-05cbffad6e.zip/node_modules/lodash-es/",\
+        ["npm:4.18.1", {\
+          "packageLocation": "./.yarn/cache/lodash-es-npm-4.18.1-02cf41b912-578993943c.zip/node_modules/lodash-es/",\
           "packageDependencies": [\
-            ["lodash-es", "npm:4.17.21"]\
+            ["lodash-es", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3356,7 +3356,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/runtime", "npm:7.15.3"],\
             ["@types/lodash", "npm:4.14.172"],\
             ["lodash", "npm:4.17.21"],\
-            ["lodash-es", "npm:4.17.21"],\
+            ["lodash-es", "npm:4.18.1"],\
             ["nanoclone", "npm:0.2.1"],\
             ["property-expr", "npm:2.0.4"],\
             ["toposort", "npm:2.0.2"]\
