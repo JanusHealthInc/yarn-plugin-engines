@@ -2337,7 +2337,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["micromatch", "npm:4.0.4"],\
             ["braces", "npm:3.0.2"],\
-            ["picomatch", "npm:2.3.0"]\
+            ["picomatch", "npm:2.3.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2595,10 +2595,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["picomatch", [\
-        ["npm:2.3.0", {\
-          "packageLocation": "./.yarn/cache/picomatch-npm-2.3.0-5e60e6c82d-16818720ea.zip/node_modules/picomatch/",\
+        ["npm:2.3.2", {\
+          "packageLocation": "./.yarn/cache/picomatch-npm-2.3.2-4d85543a37-0a3f5b9ff2.zip/node_modules/picomatch/",\
           "packageDependencies": [\
-            ["picomatch", "npm:2.3.0"]\
+            ["picomatch", "npm:2.3.2"]\
           ],\
           "linkType": "HARD"\
         }]\
