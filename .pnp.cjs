@@ -388,7 +388,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["globby", "npm:11.0.4"],\
             ["got", "npm:11.8.2"],\
             ["json-file-plus", "npm:3.3.1"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["micromatch", "npm:4.0.4"],\
             ["mkdirp", "npm:0.5.5"],\
             ["p-limit", "npm:2.3.0"],\
@@ -567,7 +567,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ci-info", "npm:3.3.0"],\
             ["clipanion", "virtual:aa6dbc485c96a4f23035a31f44481412ab7479eee841cf5f30d392dce33e0547ef7dbed86b365514f32c7fc4d2d00670c7483fbe76a30ee4eead454cfc70e090#npm:3.2.0-rc.10"],\
             ["enquirer", "npm:2.3.6"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["micromatch", "npm:4.0.4"],\
             ["semver", "npm:7.3.5"],\
             ["tslib", "npm:1.14.1"],\
@@ -626,7 +626,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/fslib", "npm:2.6.1"],\
             ["clipanion", "virtual:aa6dbc485c96a4f23035a31f44481412ab7479eee841cf5f30d392dce33e0547ef7dbed86b365514f32c7fc4d2d00670c7483fbe76a30ee4eead454cfc70e090#npm:3.2.0-rc.10"],\
             ["git-url-parse", "npm:11.1.2"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["semver", "npm:7.3.5"],\
             ["tslib", "npm:1.14.1"]\
           ],\
@@ -707,7 +707,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/core", "npm:3.2.0"],\
             ["@yarnpkg/fslib", "npm:2.6.1"],\
             ["clipanion", "virtual:aa6dbc485c96a4f23035a31f44481412ab7479eee841cf5f30d392dce33e0547ef7dbed86b365514f32c7fc4d2d00670c7483fbe76a30ee4eead454cfc70e090#npm:3.2.0-rc.10"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["tslib", "npm:1.14.1"]\
           ],\
           "packagePeers": [\
@@ -2277,10 +2277,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lodash", [\
-        ["npm:4.17.21", {\
-          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
+        ["npm:4.18.1", {\
+          "packageLocation": "./.yarn/cache/lodash-npm-4.18.1-a64c3070ac-bb5f5b49aa.zip/node_modules/lodash/",\
           "packageDependencies": [\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3355,7 +3355,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yup", "npm:0.32.9"],\
             ["@babel/runtime", "npm:7.15.3"],\
             ["@types/lodash", "npm:4.14.172"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["lodash-es", "npm:4.17.21"],\
             ["nanoclone", "npm:0.2.1"],\
             ["property-expr", "npm:2.0.4"],\
