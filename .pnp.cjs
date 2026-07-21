@@ -481,7 +481,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@yarnpkg-parsers-npm-2.5.0-80778f9c50-02678b7b91.zip/node_modules/@yarnpkg/parsers/",\
           "packageDependencies": [\
             ["@yarnpkg/parsers", "npm:2.5.0"],\
-            ["js-yaml", "npm:3.14.1"],\
+            ["js-yaml", "npm:3.15.0"],\
             ["tslib", "npm:1.14.1"]\
           ],\
           "linkType": "HARD"\
@@ -2233,10 +2233,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["js-yaml", [\
-        ["npm:3.14.1", {\
-          "packageLocation": "./.yarn/cache/js-yaml-npm-3.14.1-b968c6095e-bef146085f.zip/node_modules/js-yaml/",\
+        ["npm:3.15.0", {\
+          "packageLocation": "./.yarn/cache/js-yaml-npm-3.15.0-c152ef7c11-0209830c3c.zip/node_modules/js-yaml/",\
           "packageDependencies": [\
-            ["js-yaml", "npm:3.14.1"],\
+            ["js-yaml", "npm:3.15.0"],\
             ["argparse", "npm:1.0.10"],\
             ["esprima", "npm:4.0.1"]\
           ],\
