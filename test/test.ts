@@ -3,8 +3,6 @@ import { existsSync, readFileSync, unlinkSync, writeFileSync } from "fs";
 import { resolve } from "path";
 import test from "tape";
 
-const isWin = process.platform === "win32";
-
 const updatePackage = (values: { engines?: { node?: string; yarn?: string } }): void => {
   const content = JSON.parse(readFileSync(resolve(__dirname, "..", "package.json"), "utf-8"));
   delete content.engines;
@@ -13,19 +11,23 @@ const updatePackage = (values: { engines?: { node?: string; yarn?: string } }): 
 };
 
 const install = (options: { env?: Record<string, unknown> } = {}): { stdout: string; status: number } => {
-  return spawnSync(isWin ? "yarn.cmd" : "yarn", {
+  const result = spawnSync(process.execPath, [yarnPath], {
     cwd: resolve(__dirname, ".."),
     encoding: "utf-8",
     env: { ...process.env, ...options.env, GITHUB_ACTIONS: undefined },
   });
+  if (result.error) throw result.error;
+  return result;
 };
 
 const build = (options: { env?: Record<string, unknown> } = {}): { stderr: string; status: number } => {
-  return spawnSync(isWin ? "yarn.cmd" : "yarn", ["build"], {
+  const result = spawnSync(process.execPath, [yarnPath, "build"], {
     cwd: resolve(__dirname, ".."),
     encoding: "utf-8",
     env: { ...process.env, ...options.env, GITHUB_ACTIONS: undefined },
   });
+  if (result.error) throw result.error;
+  return result;
 };
 
 const getYarnVersion = (): string => {
@@ -34,6 +36,7 @@ const getYarnVersion = (): string => {
 };
 
 const yarnVersion = getYarnVersion();
+const yarnPath = resolve(__dirname, "..", ".yarn", "releases", `yarn-${yarnVersion}.cjs`);
 
 const nvmrcPath = resolve(__dirname, "..", ".nvmrc");
 
